@@ -1,0 +1,5 @@
+{
+  "epoch": 3,
+  "validation_micro_f1": 0.7799722429806768,
+  "criterion": "max validation punctuation micro F1 (excluding O)"
+}

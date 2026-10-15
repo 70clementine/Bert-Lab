@@ -1,0 +1,212 @@
+[
+  {
+    "workload": "single_4020",
+    "method": "fast",
+    "batch": 2,
+    "different_positions_vs_fixed16": 0,
+    "characters": 4020
+  },
+  {
+    "workload": "single_4020",
+    "method": "fast",
+    "batch": 64,
+    "different_positions_vs_fixed16": 0,
+    "characters": 4020
+  },
+  {
+    "workload": "single_4020",
+    "method": "fast",
+    "batch": 16,
+    "different_positions_vs_fixed16": 0,
+    "characters": 4020
+  },
+  {
+    "workload": "single_4020",
+    "method": "fast",
+    "batch": 32,
+    "different_positions_vs_fixed16": 0,
+    "characters": 4020
+  },
+  {
+    "workload": "single_4020",
+    "method": "fixed",
+    "batch": 64,
+    "different_positions_vs_fixed16": 0,
+    "characters": 4020
+  },
+  {
+    "workload": "single_4020",
+    "method": "fixed",
+    "batch": 16,
+    "different_positions_vs_fixed16": 0,
+    "characters": 4020
+  },
+  {
+    "workload": "single_4020",
+    "method": "fast",
+    "batch": 4,
+    "different_positions_vs_fixed16": 0,
+    "characters": 4020
+  },
+  {
+    "workload": "single_4020",
+    "method": "fast",
+    "batch": 8,
+    "different_positions_vs_fixed16": 0,
+    "characters": 4020
+  },
+  {
+    "workload": "single_4020",
+    "method": "fast",
+    "batch": 1,
+    "different_positions_vs_fixed16": 0,
+    "characters": 4020
+  },
+  {
+    "workload": "single_4020",
+    "method": "fixed",
+    "batch": 1,
+    "different_positions_vs_fixed16": 0,
+    "characters": 4020
+  },
+  {
+    "workload": "multi_12",
+    "method": "fast",
+    "batch": 2,
+    "different_positions_vs_fixed16": 0,
+    "characters": 28653
+  },
+  {
+    "workload": "multi_12",
+    "method": "fast",
+    "batch": 64,
+    "different_positions_vs_fixed16": 0,
+    "characters": 28653
+  },
+  {
+    "workload": "multi_12",
+    "method": "fast",
+    "batch": 16,
+    "different_positions_vs_fixed16": 0,
+    "characters": 28653
+  },
+  {
+    "workload": "multi_12",
+    "method": "fast",
+    "batch": 32,
+    "different_positions_vs_fixed16": 0,
+    "characters": 28653
+  },
+  {
+    "workload": "multi_12",
+    "method": "fixed",
+    "batch": 64,
+    "different_positions_vs_fixed16": 0,
+    "characters": 28653
+  },
+  {
+    "workload": "multi_12",
+    "method": "fixed",
+    "batch": 16,
+    "different_positions_vs_fixed16": 0,
+    "characters": 28653
+  },
+  {
+    "workload": "multi_12",
+    "method": "fast",
+    "batch": 4,
+    "different_positions_vs_fixed16": 0,
+    "characters": 28653
+  },
+  {
+    "workload": "multi_12",
+    "method": "fast",
+    "batch": 8,
+    "different_positions_vs_fixed16": 0,
+    "characters": 28653
+  },
+  {
+    "workload": "multi_12",
+    "method": "fast",
+    "batch": 1,
+    "different_positions_vs_fixed16": 0,
+    "characters": 28653
+  },
+  {
+    "workload": "multi_12",
+    "method": "fixed",
+    "batch": 1,
+    "different_positions_vs_fixed16": 0,
+    "characters": 28653
+  },
+  {
+    "workload": "assembled_100k",
+    "method": "fast",
+    "batch": 2,
+    "different_positions_vs_fixed16": 0,
+    "characters": 100000
+  },
+  {
+    "workload": "assembled_100k",
+    "method": "fast",
+    "batch": 64,
+    "different_positions_vs_fixed16": 0,
+    "characters": 100000
+  },
+  {
+    "workload": "assembled_100k",
+    "method": "fast",
+    "batch": 16,
+    "different_positions_vs_fixed16": 0,
+    "characters": 100000
+  },
+  {
+    "workload": "assembled_100k",
+    "method": "fast",
+    "batch": 32,
+    "different_positions_vs_fixed16": 0,
+    "characters": 100000
+  },
+  {
+    "workload": "assembled_100k",
+    "method": "fixed",
+    "batch": 64,
+    "different_positions_vs_fixed16": 0,
+    "characters": 100000
+  },
+  {
+    "workload": "assembled_100k",
+    "method": "fixed",
+    "batch": 16,
+    "different_positions_vs_fixed16": 0,
+    "characters": 100000
+  },
+  {
+    "workload": "assembled_100k",
+    "method": "fast",
+    "batch": 4,
+    "different_positions_vs_fixed16": 0,
+    "characters": 100000
+  },
+  {
+    "workload": "assembled_100k",
+    "method": "fast",
+    "batch": 8,
+    "different_positions_vs_fixed16": 0,
+    "characters": 100000
+  },
+  {
+    "workload": "assembled_100k",
+    "method": "fast",
+    "batch": 1,
+    "different_positions_vs_fixed16": 0,
+    "characters": 100000
+  },
+  {
+    "workload": "assembled_100k",
+    "method": "fixed",
+    "batch": 1,
+    "different_positions_vs_fixed16": 0,
+    "characters": 100000
+  }
+]

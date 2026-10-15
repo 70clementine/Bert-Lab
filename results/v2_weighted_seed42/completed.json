@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "epochs": 3,
+  "optimizer_updates": 1005,
+  "elapsed_s": 253.25574909999887,
+  "best_validation_micro_f1": 0.7766944114149822,
+  "peak_memory_mib": 3124.134765625,
+  "finished_at_utc": "2026-10-15T08:00:43.252582+00:00"
+}

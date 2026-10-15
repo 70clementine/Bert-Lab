@@ -1,0 +1,56 @@
+{
+  "checkpoint": "runs/v2_corrected_seed42/best",
+  "precision": "bf16",
+  "repeats": 7,
+  "workloads": {
+    "single_4020": {
+      "documents": 1,
+      "characters": 4020,
+      "lengths": [
+        4020
+      ]
+    },
+    "multi_12": {
+      "documents": 12,
+      "characters": 28653,
+      "lengths": [
+        4020,
+        3022,
+        2561,
+        2459,
+        2388,
+        2244,
+        2206,
+        2095,
+        2061,
+        1987,
+        1861,
+        1749
+      ]
+    },
+    "assembled_100k": {
+      "documents": 1,
+      "characters": 100000,
+      "lengths": [
+        100000
+      ]
+    }
+  },
+  "source_ids": [
+    "19980120-10-004",
+    "19980109-01-002",
+    "19980123-01-001",
+    "19980120-11-001",
+    "19980123-07-003",
+    "19980123-07-004",
+    "19980124-06-001",
+    "19980122-11-001",
+    "19980127-05-002",
+    "19980126-01-003",
+    "19980111-01-001",
+    "19980113-03-001"
+  ],
+  "assembled_100k_note": "Concatenation of held-out January articles for performance stress ONLY; artificial joins are not quality-evaluated",
+  "timing": "Warm model; encode, collate, H2D, forward, D2H, merge included; no disk or weight loading; synchronized boundaries",
+  "confidence_note": "Median/min/max and paired speed ratios; variability across runs, not hardware-population inference"
+}

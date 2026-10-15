@@ -1,0 +1,33 @@
+{
+  "role": "external classical reference; all 20 chapters; no tuning",
+  "url": "https://raw.githubusercontent.com/chinese-poetry/chinese-poetry/b8594f81a89752241442f2ce267d6f66f96704ee/%E8%AE%BA%E8%AF%AD/lunyu.json",
+  "repo": "https://github.com/chinese-poetry/chinese-poetry",
+  "commit": "b8594f81a89752241442f2ce267d6f66f96704ee",
+  "sha256": "bc336a3839706377892719db44c48a09794a493190535a42bf1c7d4c4233e96c",
+  "chapters": 20,
+  "characters": 15917,
+  "paragraphs": 512,
+  "normalization": {
+    "pinyin_annotations": 0,
+    "target_：": 788,
+    "dropped_“": 764,
+    "target_，": 1586,
+    "target_？": 302,
+    "dropped_”": 765,
+    "target_；": 128,
+    "target_。": 861,
+    "target_！": 120,
+    "target_、": 93,
+    "dropped_《": 37,
+    "dropped_》": 37,
+    "dropped_‘": 41,
+    "dropped_’": 41,
+    "collapsed_target_runs": 2
+  },
+  "limitations": [
+    "One famous work; not representative of all classical Chinese",
+    "Public text may occur in pretrained BERT data; no contamination-free claim",
+    "Punctuation is this digital edition, not a unique historical truth",
+    "Seven target punctuation types; quotes and brackets excluded"
+  ]
+}

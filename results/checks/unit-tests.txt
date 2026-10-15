@@ -1,0 +1,14 @@
+test_annotations_quotes_decimal_and_fullwidth (test_correctness.CorrectnessTests.test_annotations_quotes_decimal_and_fullwidth) ... ok
+test_chinese_character_ids_match_standard_tokenizer (test_correctness.CorrectnessTests.test_chinese_character_ids_match_standard_tokenizer) ... ok
+test_entire_vocabulary_matches_official_tokenizer (test_correctness.CorrectnessTests.test_entire_vocabulary_matches_official_tokenizer) ... ok
+test_every_character_owned_once_and_context_contains_owner (test_correctness.CorrectnessTests.test_every_character_owned_once_and_context_contains_owner) ... ok
+test_invalid_window_parameters (test_correctness.CorrectnessTests.test_invalid_window_parameters) ... ok
+test_metrics_wrong_type_is_both_fp_and_fn (test_correctness.CorrectnessTests.test_metrics_wrong_type_is_both_fp_and_fn) ... ok
+test_punctuation_run_and_empty (test_correctness.CorrectnessTests.test_punctuation_run_and_empty) ... ok
+test_training_skips_windows_with_no_supervision (test_correctness.CorrectnessTests.test_training_skips_windows_with_no_supervision) ... ok
+test_unknowns_keep_original_character_and_special_tokens_masked (test_correctness.CorrectnessTests.test_unknowns_keep_original_character_and_special_tokens_masked) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.122s
+
+OK

@@ -1,0 +1,13 @@
+{
+  "torch": "2.7.1+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "capability": [
+    12,
+    0
+  ],
+  "gpu_memory_bytes": 8546484224,
+  "started_at_utc": "2026-10-15T07:56:29.994507+00:00",
+  "parameters": 101683208,
+  "trainable_parameters": 101683208
+}

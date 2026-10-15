@@ -1,0 +1,24 @@
+{
+  "method": "sqrt_inverse_capped",
+  "weights": [
+    1.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+  ],
+  "labels": [
+    "O",
+    "，",
+    "。",
+    "？",
+    "！",
+    "；",
+    "：",
+    "、"
+  ],
+  "source": "training split only"
+}

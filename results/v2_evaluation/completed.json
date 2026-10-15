@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "chosen": "corrected_seed42",
+  "models": [
+    "corrected_seed42",
+    "corrected_seed43",
+    "corrected_seed44",
+    "weighted_seed42"
+  ],
+  "datasets": {
+    "january": 305,
+    "february": 2564,
+    "classical": 20
+  },
+  "predictions_saved": true
+}

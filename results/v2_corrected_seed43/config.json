@@ -1,0 +1,21 @@
+{
+  "seed": 43,
+  "model_id": "google-bert/bert-base-chinese",
+  "model_revision": "8f23c25b06e129b6c986331a13d8d025a92cf0ea",
+  "model_dir": "models/bert-base-chinese",
+  "window": 400,
+  "stride": 300,
+  "epochs": 3,
+  "train_batch_size": 8,
+  "gradient_accumulation": 2,
+  "eval_batch_size": 16,
+  "learning_rate": 3e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "max_grad_norm": 1.0,
+  "precision": "bf16",
+  "cpu_threads": 4,
+  "data_dir": "data/v2",
+  "run_dir": "runs/v2_corrected_seed43",
+  "checkpoint": "runs/v2_corrected_seed42/best"
+}

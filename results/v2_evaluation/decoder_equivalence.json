@@ -1,0 +1,10 @@
+{
+  "january": {
+    "fast_vs_reference_different_positions": 0,
+    "characters": 176393
+  },
+  "classical": {
+    "fast_vs_reference_different_positions": 0,
+    "characters": 15917
+  }
+}

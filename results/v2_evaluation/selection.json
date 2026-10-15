@@ -1,0 +1,158 @@
+{
+  "chosen": "corrected_seed42",
+  "criterion": "max January validation punctuation micro-F1; seed fixed to 42; no test-based choice",
+  "candidates": {
+    "corrected_seed42": {
+      "config": {
+        "seed": 42,
+        "model_id": "google-bert/bert-base-chinese",
+        "model_revision": "8f23c25b06e129b6c986331a13d8d025a92cf0ea",
+        "model_dir": "models/bert-base-chinese",
+        "window": 400,
+        "stride": 300,
+        "epochs": 3,
+        "train_batch_size": 8,
+        "gradient_accumulation": 2,
+        "eval_batch_size": 16,
+        "learning_rate": 3e-05,
+        "weight_decay": 0.01,
+        "warmup_ratio": 0.1,
+        "max_grad_norm": 1.0,
+        "precision": "bf16",
+        "cpu_threads": 4,
+        "data_dir": "data/v2",
+        "run_dir": "runs/v2_corrected_seed42",
+        "checkpoint": "runs/v2_corrected_seed42/best"
+      },
+      "selection": {
+        "epoch": 3,
+        "validation_micro_f1": 0.7799722429806768,
+        "criterion": "max validation punctuation micro F1 (excluding O)"
+      },
+      "completed": {
+        "status": "completed",
+        "epochs": 3,
+        "optimizer_updates": 1005,
+        "elapsed_s": 253.1579740999996,
+        "best_validation_micro_f1": 0.7799722429806768,
+        "peak_memory_mib": 3123.958984375,
+        "finished_at_utc": "2026-10-15T07:46:14.201383+00:00"
+      }
+    },
+    "corrected_seed43": {
+      "config": {
+        "seed": 43,
+        "model_id": "google-bert/bert-base-chinese",
+        "model_revision": "8f23c25b06e129b6c986331a13d8d025a92cf0ea",
+        "model_dir": "models/bert-base-chinese",
+        "window": 400,
+        "stride": 300,
+        "epochs": 3,
+        "train_batch_size": 8,
+        "gradient_accumulation": 2,
+        "eval_batch_size": 16,
+        "learning_rate": 3e-05,
+        "weight_decay": 0.01,
+        "warmup_ratio": 0.1,
+        "max_grad_norm": 1.0,
+        "precision": "bf16",
+        "cpu_threads": 4,
+        "data_dir": "data/v2",
+        "run_dir": "runs/v2_corrected_seed43",
+        "checkpoint": "runs/v2_corrected_seed42/best"
+      },
+      "selection": {
+        "epoch": 3,
+        "validation_micro_f1": 0.7820444254287446,
+        "criterion": "max validation punctuation micro F1 (excluding O)"
+      },
+      "completed": {
+        "status": "completed",
+        "epochs": 3,
+        "optimizer_updates": 1005,
+        "elapsed_s": 253.9931263999997,
+        "best_validation_micro_f1": 0.7820444254287446,
+        "peak_memory_mib": 3123.958984375,
+        "finished_at_utc": "2026-10-15T07:51:57.445427+00:00"
+      }
+    },
+    "corrected_seed44": {
+      "config": {
+        "seed": 44,
+        "model_id": "google-bert/bert-base-chinese",
+        "model_revision": "8f23c25b06e129b6c986331a13d8d025a92cf0ea",
+        "model_dir": "models/bert-base-chinese",
+        "window": 400,
+        "stride": 300,
+        "epochs": 3,
+        "train_batch_size": 8,
+        "gradient_accumulation": 2,
+        "eval_batch_size": 16,
+        "learning_rate": 3e-05,
+        "weight_decay": 0.01,
+        "warmup_ratio": 0.1,
+        "max_grad_norm": 1.0,
+        "precision": "bf16",
+        "cpu_threads": 4,
+        "data_dir": "data/v2",
+        "run_dir": "runs/v2_corrected_seed44",
+        "checkpoint": "runs/v2_corrected_seed42/best"
+      },
+      "selection": {
+        "epoch": 3,
+        "validation_micro_f1": 0.7832337033874182,
+        "criterion": "max validation punctuation micro F1 (excluding O)"
+      },
+      "completed": {
+        "status": "completed",
+        "epochs": 3,
+        "optimizer_updates": 1005,
+        "elapsed_s": 253.46677240000008,
+        "best_validation_micro_f1": 0.7832337033874182,
+        "peak_memory_mib": 3123.958984375,
+        "finished_at_utc": "2026-10-15T07:56:20.658283+00:00"
+      }
+    },
+    "weighted_seed42": {
+      "config": {
+        "seed": 42,
+        "model_id": "google-bert/bert-base-chinese",
+        "model_revision": "8f23c25b06e129b6c986331a13d8d025a92cf0ea",
+        "model_dir": "models/bert-base-chinese",
+        "window": 400,
+        "stride": 300,
+        "epochs": 3,
+        "train_batch_size": 8,
+        "gradient_accumulation": 2,
+        "eval_batch_size": 16,
+        "learning_rate": 3e-05,
+        "weight_decay": 0.01,
+        "warmup_ratio": 0.1,
+        "max_grad_norm": 1.0,
+        "precision": "bf16",
+        "cpu_threads": 4,
+        "data_dir": "data/v2",
+        "run_dir": "runs/v2_weighted_seed42",
+        "checkpoint": "runs/v2_corrected_seed42/best",
+        "class_weighting": "sqrt_inverse_capped",
+        "class_weight_cap": 3.0
+      },
+      "selection": {
+        "epoch": 3,
+        "validation_micro_f1": 0.7766944114149822,
+        "criterion": "max validation punctuation micro F1 (excluding O)"
+      },
+      "completed": {
+        "status": "completed",
+        "epochs": 3,
+        "optimizer_updates": 1005,
+        "elapsed_s": 253.25574909999887,
+        "best_validation_micro_f1": 0.7766944114149822,
+        "peak_memory_mib": 3124.134765625,
+        "finished_at_utc": "2026-10-15T08:00:43.252582+00:00"
+      }
+    }
+  },
+  "chosen_before_test_evaluation": true,
+  "default_decoder": "fast (same labels as fixed)"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "workload": "single_4020",
+    "best_fast_batch": 8,
+    "total_speedup": 4.1466573178571835,
+    "batch_only_fixed_1_to_64": 3.619993130194247,
+    "implementation_only_at_64": 0.997508936308893,
+    "fast64_vs_sequential": 3.9651177003383022
+  },
+  {
+    "workload": "multi_12",
+    "best_fast_batch": 8,
+    "total_speedup": 4.396273220466513,
+    "batch_only_fixed_1_to_64": 3.757911888280493,
+    "implementation_only_at_64": 1.024531078688406,
+    "fast64_vs_sequential": 4.142798883134545
+  },
+  {
+    "workload": "assembled_100k",
+    "best_fast_batch": 8,
+    "total_speedup": 4.604290761084372,
+    "batch_only_fixed_1_to_64": 3.7620220722840885,
+    "implementation_only_at_64": 1.0359960242113684,
+    "fast64_vs_sequential": 4.32632488305294
+  }
+]

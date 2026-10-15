@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checkpoint": "runs/v2_corrected_seed42/best",
+  "lengths": [
+    0,
+    1,
+    299,
+    300,
+    301,
+    399,
+    400,
+    401,
+    599,
+    600,
+    601,
+    999,
+    1000
+  ],
+  "checks": [
+    "empty list and empty document",
+    "short/ownership/window/tail boundaries",
+    "mixed document lengths and unknown characters",
+    "fixed16/fast16 exact equality",
+    "invalid batch rejected"
+  ]
+}
